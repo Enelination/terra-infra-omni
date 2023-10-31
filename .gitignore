@@ -1,0 +1,12 @@
+# .gitignore for Terraform projects
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore .idea (if you're using JetBrains IDEs)
+.idea/
